@@ -1,3 +1,4 @@
+'use strict';
 /**
  * Class => Item(name)
  * -----------------------------
@@ -351,8 +352,8 @@ class Zombie {
  * -----------------------------
  */
 class FastZombie extends Zombie {
-  constructor(health, strength, speed){
-    super(health, strength, speed)
+  constructor(health, strength, speed) {
+    super(health, strength, speed);
   }
 }
 /**
@@ -376,7 +377,7 @@ class FastZombie extends Zombie {
  */
 class StrongZombie extends Zombie {
   constructor(health, strength, speed) {
-    super(health, strength, speed)
+    super(health, strength, speed);
   }
 }
 /**
@@ -395,7 +396,7 @@ class StrongZombie extends Zombie {
  */
 class RangedZombie extends Zombie {
   constructor(health, strength, speed) {
-    super(health, strength, speed)
+    super(health, strength, speed);
   }
 }
 /**
@@ -424,7 +425,7 @@ class RangedZombie extends Zombie {
  */
 class ExplodingZombie extends Zombie {
   constructor(health, strength, speed) {
-    super(health, strength, speed)
+    super(health, strength, speed);
   }
 }
 /**
